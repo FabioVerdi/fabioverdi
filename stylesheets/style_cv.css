@@ -1,0 +1,220 @@
+.holder_geral {
+	width: 900px;
+	margin: 20px auto;
+	border-top:5px solid #666;
+	background-color: #f5f5f5;
+}
+
+.holder_geral .holder_conteudo {
+	padding: 50px;
+}
+
+.holder_geral .holder_conteudo header {
+	border-bottom: 1px dotted #ccc;
+	padding-bottom: 15px;
+}
+
+.holder_geral .holder_conteudo header h1 {
+	font-size: 48px;
+	text-transform: uppercase;
+}
+
+.holder_geral .holder_conteudo header h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-style: oblique;
+}
+
+.holder_geral .holder_conteudo header .holder_contato {
+	float: right;
+	width: 145px;
+}
+
+.holder_geral .holder_conteudo header .holder_contato li {
+	float: left;
+	clear: both;
+	margin-bottom: 10px;
+}
+
+.holder_geral .holder_conteudo header .holder_contato li a {
+	clear: both;
+}
+
+.holder_geral .holder_conteudo header .holder_contato li .link_pdf {
+	padding: 5px 10px;
+	font-size: 18px;
+	color: #fff;
+	background: -webkit-gradient(linear, left top, right top, from(#36D900), to(#238A00));
+	background: -webkit-linear-gradient(top, #36D900, #238A00);
+	background: -moz-linear-gradient(top, #36D900, #238A00);
+	background: -o-linear-gradient(top, #36D900, #238A00);
+	background: -ms-linear-gradient(top, #36D900, #238A00);
+	background: linear-gradient(top, #36D900, #238A00);
+	background-color: #36D900;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
+	-ms-border-radius: 8px;
+	border-radius: 8px;
+}
+
+.holder_geral .holder_conteudo header .holder_contato li .link_pdf:hover {
+	background: -webkit-gradient(linear, left top, right top, from(#238A00), to(#36D900));
+	background: -webkit-linear-gradient(top, #238A00, #36D900);
+	background: -moz-linear-gradient(top, #238A00, #36D900);
+	background: -o-linear-gradient(top, #238A00, #36D900);
+	background: -ms-linear-gradient(top, #238A00, #36D900);
+	background: linear-gradient(top, #238A00, #36D900);
+	background-color: #238A00;
+	text-decoration: none;
+}
+
+.holder_geral .holder_conteudo header .holder_contato li .link_email {
+	text-align: center;
+}
+
+.holder_geral .holder_conteudo .holder_informacoes {
+	overflow: hidden;
+	padding: 40px 0;
+	border-bottom: 1px dotted #ccc;
+}
+
+.holder_geral .holder_conteudo .holder_informacoes h3 {
+	font-size: 20px;
+	width: 150px;
+	float: left;
+	font-style: oblique;
+}
+
+.holder_geral .holder_conteudo .holder_informacoes .descricao {
+	float: right;
+	width: 600px;
+}
+
+.holder_geral .holder_conteudo .holder_informacoes .descricao p {
+	font-size: 15px;
+	padding-right: 40px;
+}
+
+.holder_geral .holder_conteudo .holder_informacoes .descricao .holder_descricao {
+	width: 200px;
+	float: left;
+}
+
+.holder_geral .holder_conteudo .holder_informacoes .descricao h4 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.holder_geral .holder_conteudo .holder_informacoes .descricao .holder_descricao p {
+	font-size: 13px;
+}
+
+.holder_geral .holder_conteudo .holder_informacoes .descricao table tr {
+	border-bottom: 1px solid #ccc;
+	width: 600px;
+}
+
+.holder_geral .holder_conteudo .holder_informacoes .descricao table tr:last-child {
+	border-bottom: none;
+}
+
+.holder_geral .holder_conteudo .holder_informacoes .descricao table tr td {
+	width: 200px;
+	height: 30px;
+	vertical-align: middle;
+}
+
+.holder_geral .holder_conteudo .holder_informacoes ul li .descricao.empresa {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 20px;
+}
+
+.holder_geral .holder_conteudo .holder_informacoes ul li:last-child .descricao.empresa {
+	border-bottom: none;
+	padding-bottom: 0;
+}
+
+.holder_geral .holder_conteudo .holder_informacoes ul li .descricao.empresa a,
+.holder_geral .holder_conteudo .holder_informacoes ul li .descricao.empresa button {
+	float: right;
+	padding-top: 20px;
+}
+
+.holder_geral .holder_conteudo .holder_informacoes ul li:first-child .descricao.empresa button {
+	padding-top: 2px;
+	color: #fff;
+	background: -webkit-gradient(linear, left top, right top, from(#36D900), to(#238A00));
+	background: -webkit-linear-gradient(top, #36D900, #238A00);
+	background: -moz-linear-gradient(top, #36D900, #238A00);
+	background: -o-linear-gradient(top, #36D900, #238A00);
+	background: -ms-linear-gradient(top, #36D900, #238A00);
+	background: linear-gradient(top, #36D900, #238A00);
+	background-color: #36D900;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
+	-ms-border-radius: 8px;
+	border-radius: 8px;
+	border: none;
+}
+
+.holder_geral .holder_conteudo .holder_informacoes ul li:first-child .descricao.empresa button:hover {
+	background: -webkit-gradient(linear, left top, right top, from(#238A00), to(#36D900));
+	background: -webkit-linear-gradient(top, #238A00, #36D900);
+	background: -moz-linear-gradient(top, #238A00, #36D900);
+	background: -o-linear-gradient(top, #238A00, #36D900);
+	background: -ms-linear-gradient(top, #238A00, #36D900);
+	background: linear-gradient(top, #238A00, #36D900);
+	background-color: #238A00;
+}
+
+.holder_geral .holder_conteudo .holder_informacoes ul li .descricao.empresa h4 {
+	padding: 20px 0 0 0;
+	margin-bottom: 0;
+	width: 400px;
+}
+
+.holder_geral .holder_conteudo .holder_informacoes ul li:first-child .descricao.empresa h4 {
+	padding: 0 0 0 0;
+}
+
+.holder_geral .holder_conteudo .holder_informacoes ul li .descricao.empresa span {
+	font-size: 15px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.holder_geral .holder_conteudo .holder_informacoes ul li .descricao.empresa p {
+	font-size: 13px;
+}
+
+.holder_geral .holder_conteudo .holder_informacoes .descricao.formacao h4 {
+	margin-bottom: 0;
+}
+
+.holder_geral .holder_conteudo footer p {
+	font-size: 10px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.holder_geral .holder_conteudo footer p a {
+	display: inline-block;
+}
+
+.ui-dialog {
+	width: 800px!important;
+}
+
+#dialog {
+	padding: 10px;
+	max-height: 250px!important;
+	display: none;
+}
+
+#dialog h4 {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
