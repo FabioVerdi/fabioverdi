@@ -103,6 +103,7 @@ aside nav ul li a {
 aside nav ul li a.active,
 aside nav ul li a:hover {
   text-decoration: underline;
+  color: #990003;
 }
 
 strong {

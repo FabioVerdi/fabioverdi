@@ -12,11 +12,7 @@
 .holder_geral .holder_conteudo header {
 	border-bottom: 1px dotted #ccc;
 	padding-bottom: 15px;
-}
-
-.holder_geral .holder_conteudo header h1 {
-	font-size: 48px;
-	text-transform: uppercase;
+	overflow: hidden;
 }
 
 .holder_geral .holder_conteudo header h2 {
@@ -85,6 +81,7 @@
 	width: 150px;
 	float: left;
 	font-style: oblique;
+	margin-bottom: 20px;
 }
 
 .holder_geral .holder_conteudo .holder_informacoes .descricao {
@@ -96,12 +93,12 @@
 }
 
 .holder_geral .holder_conteudo .holder_informacoes .descricao .holder_descricao {
-	width: 200px;
+	width: 170px;
 	float: left;
 }
 
 .holder_geral .holder_conteudo .holder_informacoes .descricao .holder_descricao:nth-child(2) {
-	margin: 0 15px;
+	margin: 0 60px;
 }
 
 .holder_geral .holder_conteudo .holder_informacoes .descricao h4 {
@@ -111,6 +108,7 @@
 
 .holder_geral .holder_conteudo .holder_informacoes .descricao .holder_descricao p {
 	font-size: 13px;
+	text-align: justify;
 }
 
 .holder_geral .holder_conteudo .holder_informacoes .descricao table tr {
@@ -184,7 +182,7 @@
 
 .holder_geral .holder_conteudo .holder_informacoes ul li .descricao.empresa h4 {
 	padding: 20px 0 0 0;
-	margin-bottom: 0;
+	margin-bottom: 20px;
 	width: 400px;
 }
 
