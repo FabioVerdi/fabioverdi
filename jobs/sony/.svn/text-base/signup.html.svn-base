@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Sony</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="public/css/normalize.css">
+        <link rel="stylesheet" href="public/css/main.css">
+        <link rel="stylesheet" href="public/css/jquery.jscrollpane.css">
+
+        <script type="text/javascript" src="public/js/vendor/jquery-1.9.0.min.js"></script>
+        <script type="text/javascript" src="public/js/vendor/modernizr-2.6.2.min.js"></script>
+        <script type="text/javascript" src="public/js/vendor/selectivizr-min.js"></script>
+
+        <script type="text/javascript" src="public/js/vendor/jquery.jscrollpane.min.js"></script>
+        <script type="text/javascript" src="public/js/main.js"></script>
+    </head>
+    <body class="home">
+      <section id="main" class="clearfix">
+        <div class="wrapper login clearfix">
+          <h2 class="ir sprite">seja bem vindo</h2>
+
+          <form action="#" method="post" id="frm-login">
+            <p>Aqui você será atualizado com informações sobre novos smartphones Sony e poderá ganhar prêmios exclusivos.</p>
+            <h3>Escolha sua cidade, operadora e revenda.</h3>
+            <input type="text" name="city" id="city" placeholder="Cidade">
+            <select name="carrier" id="carrier">
+              <option value="1">Vivo</option>
+              <option value="2">Tim</option>
+            </select>
+            <select name="reseller" id="reseller">
+              <option value="1">Revenda 1</option>
+              <option value="2">Revenda 2</option>
+            </select>
+            <input type="submit" value="entrar" class="ir sprite">
+          </form>
+        </div>
+      </section>
+
+      <!--signup-->
+      <div class="modal" id="signup">
+        <header>
+          <h1 class="sprite ir">sony</h1>
+          <a href="javascript:;" class="close">x</a>
+        </header>
+        <div class="wrapper">
+          <h2 class="sprite">Cadastro</h2>
+          <form action="#" id="frm-signup">
+            <h3>Quero me cadstrar</h3>
+            <ul>
+              <li>
+                <label for="name">Nome</label><input type="text" name="name" id="name">
+              </li>
+              <li>
+                <label for="email">E-mail</label><input type="text" name="email" id="email">
+              </li>
+              <li>
+                <label for="cpf">CPF</label><input type="text" name="cpf" id="cpf">
+              </li>
+              <li>
+                <label for="password">Senha</label><input type="password" name="password" id="password">
+              </li>
+              <li>
+                <label for="password2">Repita a senha</label><input type="password" name="password2" id="password2">
+              </li>
+              <li>
+                <a href="#" class="ir sprite btn-facebook">Fazer login com o Facebook</a>
+                <span class="or">ou</span>
+                <input type="submit" class="ir sprite btn-submit" value="Enviar">
+              </li>
+            </ul>
+          </form>
+
+          <form action="#" id="frm-login">
+            <h3>Já sou cadastrado</h3>
+            <ul>
+              <li>
+                <label for="email">E-mail</label><input type="text" name="email" id="email">
+              </li>
+              <li>
+                <label for="password">Senha</label><input type="password" name="password" id="password">
+                <a href="#" class="forgot">Esqueci minha senha</a>
+              </li>
+              <li>
+                <a href="#" class="ir sprite btn-facebook">Fazer login com o Facebook</a>
+                <span class="or">ou</span>
+                <input type="submit" class="ir sprite btn-submit" value="Enviar">
+              </li>
+            </ul>
+          </form>
+          <div class="holder-validation">
+            <span class="icon sprite"></span>
+            Digite o seu nome e um E-mail válido
+          </div>
+        </div>
+      </div>
+      <!--signup-->
+
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+      <script>window.jQuery || document.write('<script src="public/js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+      <script>
+          var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+          (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+          g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+          s.parentNode.insertBefore(g,s)}(document,'script'));
+      </script>
+    </body>
+</html>

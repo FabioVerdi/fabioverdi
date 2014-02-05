@@ -83,6 +83,18 @@ aside nav ul li a strong {
   display: none;
 }
 
+.holder-content ul li h2 {
+  font-size: 20px;
+}
+
+.holder-content ul {
+  margin: 20px 0;
+}
+
+.holder-content ul li:first-child {
+  margin-bottom: 10px;
+}
+
 .holder-content.about {
   display: block;
 }

@@ -1,0 +1,94 @@
+{
+  "questions": [
+  {
+    "question": "Qual é o tempo de duração da bateria para conversação no Xperia E dual? 1",
+    "answers": [
+      {"answer":"3 horas e 20 minutos", "value":"1", "opt":"a"},
+      {"answer":"6 horas e 12 minutos", "value":"2", "opt":"b"},
+      {"answer":"15 horas", "value":"3", "opt":"c"}
+    ],
+    "correct":1
+  },
+  {
+    "question": "Qual é o tempo de duração da bateria para conversação no Xperia E dual? 2",
+    "answers": [
+      {"answer":"3 horas e 20 minutos", "value":"1", "opt":"a"},
+      {"answer":"6 horas e 12 minutos", "value":"2", "opt":"b"},
+      {"answer":"15 horas", "value":"3", "opt":"c"}
+    ],
+    "correct":1
+  },
+  {
+    "question": "Qual é o tempo de duração da bateria para conversação no Xperia E dual? 3",
+    "answers": [
+      {"answer":"3 horas e 20 minutos", "value":"1", "opt":"a"},
+      {"answer":"6 horas e 12 minutos", "value":"2", "opt":"b"},
+      {"answer":"15 horas", "value":"3", "opt":"c"}
+    ],
+    "correct":1
+  },
+  {
+    "question": "Qual é o tempo de duração da bateria para conversação no Xperia E dual? 4",
+    "answers": [
+      {"answer":"3 horas e 20 minutos", "value":"1", "opt":"a"},
+      {"answer":"6 horas e 12 minutos", "value":"2", "opt":"b"},
+      {"answer":"15 horas", "value":"3", "opt":"c"}
+    ],
+    "correct":1
+  },
+  {
+    "question": "Qual é o tempo de duração da bateria para conversação no Xperia E dual? 5",
+    "answers": [
+      {"answer":"3 horas e 20 minutos", "value":"1", "opt":"a"},
+      {"answer":"6 horas e 12 minutos", "value":"2", "opt":"b"},
+      {"answer":"15 horas", "value":"3", "opt":"c"}
+    ],
+    "correct":1
+  },
+  {
+    "question": "Qual é o tempo de duração da bateria para conversação no Xperia E dual? 6",
+    "answers": [
+      {"answer":"3 horas e 20 minutos", "value":"1", "opt":"a"},
+      {"answer":"6 horas e 12 minutos", "value":"2", "opt":"b"},
+      {"answer":"15 horas", "value":"3", "opt":"c"}
+    ],
+    "correct":1
+  },
+  {
+    "question": "Qual é o tempo de duração da bateria para conversação no Xperia E dual? 7",
+    "answers": [
+      {"answer":"3 horas e 20 minutos", "value":"1", "opt":"a"},
+      {"answer":"6 horas e 12 minutos", "value":"2", "opt":"b"},
+      {"answer":"15 horas", "value":"3", "opt":"c"}
+    ],
+    "correct":1
+  },
+  {
+    "question": "Qual é o tempo de duração da bateria para conversação no Xperia E dual? 8",
+    "answers": [
+      {"answer":"3 horas e 20 minutos", "value":"1", "opt":"a"},
+      {"answer":"6 horas e 12 minutos", "value":"2", "opt":"b"},
+      {"answer":"15 horas", "value":"3", "opt":"c"}
+    ],
+    "correct":1
+  },
+  {
+    "question": "Qual é o tempo de duração da bateria para conversação no Xperia E dual? 9",
+    "answers": [
+      {"answer":"3 horas e 20 minutos", "value":"1", "opt":"a"},
+      {"answer":"6 horas e 12 minutos", "value":"2", "opt":"b"},
+      {"answer":"15 horas", "value":"3", "opt":"c"}
+    ],
+    "correct":1
+  },
+  {
+    "question": "Qual é o tempo de duração da bateria para conversação no Xperia E dual? 10",
+    "answers": [
+      {"answer":"3 horas e 20 minutos", "value":"1", "opt":"a"},
+      {"answer":"6 horas e 12 minutos", "value":"2", "opt":"b"},
+      {"answer":"15 horas", "value":"3", "opt":"c"}
+    ],
+    "correct":1
+  }
+    ]
+}

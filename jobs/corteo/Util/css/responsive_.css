@@ -1,0 +1,27 @@
+/* Laptops 1024x768----------- */
+@media only screen and (min-width : 1024px) {
+	.geral {
+		border: 1px solid yellow!important;
+	}
+}
+
+/* Laptops 1280x800----------- */
+@media only screen and (min-width : 1224px) {
+	.geral {
+		border: 1px solid blue!important;
+	}
+}
+
+/* Laptops 1366x800----------- */
+@media only screen and (min-width:1366px) {
+	.geral {
+		border: 1px solid red!important;
+	}
+}
+
+/* Large Screens 1680x1050----------- */
+@media (orientation:landscape) and (min-device-height:1000px), all and (min-width:1680px) {
+	.geral {
+		border: 1px solid green!important;
+	}
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Sony</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="public/css/normalize.css">
+        <link rel="stylesheet" href="public/css/main.css">
+
+        <script src="public/js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="public/js/vendor/selectivizr-min.js"></script>
+    </head>
+    <body class="internal">
+      <header class="how-to">
+        <div class="wrapper clearfix">
+          <h1 class="ir sprite">Feras Xperia</h1>
+          <img src="public/img/img-header-quiz.png" alt="" class="img-header">
+        </div>
+      </header>
+      <section id="main">
+        <div class="wrapper">
+
+          <article class="highlight start-quiz">
+            <h2>Lorem ipsum dolor amet</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis condimentum nisi,
+                id molestie quam volutpat praesent in nibh quis urna malesuada blandit id sed velit quisque egestas convallis sagittis nullam a dolor felis, at venenatis orci. Duis feugiat lobortis odio, eget luctus nisl fermentum suspendisse fringilla condimentum est, id dictum feliso dolor consectetur laoreet sed in felis vel massa cursus ultricies vel sed.
+            </p>
+            <a href="quiz.html" class="ir sprite btn-start-quiz">participe do Quiz</a>
+          </article>
+
+          <article class="small how-to-play">
+            <h3>Como jogar</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. egnet nunc lobortis condimentum nisi, id molestie quam volutpat praesent in nibh quis urna malesuada blandit  sed velit quisque egestas convallis sagittis nullam.</p>
+          </article>
+
+          <article class="small tips">
+            <h3>Dicas</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. egnet nunc lobortis condimentum nisi, id molestie quam volutpat praesent in nibh quis urna malesuada blandit  sed velit quisque egestas convallis sagittis nullam.</p>
+          </article>
+
+        </div>
+      </section>
+
+    </body>
+</html>

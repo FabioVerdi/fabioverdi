@@ -1,0 +1,168 @@
+/* Laptops 1024x768----------- */
+@media only screen and (min-width : 1024px) {
+	.geral {
+		height: 380px;
+		border: 1px solid yellow!important;
+	}
+
+	.geral .direita {
+		margin: 0px 10px 0 0;
+	}
+
+	.geral .direita article {
+		margin-top: 40px;
+	}
+
+	.geral nav {
+		margin-top: 100px;
+	}
+
+	main h2 {
+		font-size: 30px;
+		margin-bottom: 5px;
+	}
+
+	main p {
+		margin-bottom: 5px;
+		font-size: 12px;
+	}
+
+	main .accordion li {
+		padding: 2px 0;
+	}
+
+	.ingressos main cite { 
+		margin-top: 5px;
+	}
+
+	footer {
+		margin-top: 50px!important;
+	}
+}
+
+/* Laptops 1280x800----------- */
+@media only screen and (min-width : 1224px) {
+	.geral {
+		height: 450px;
+		border: 1px solid blue!important;
+	}
+
+	.geral .direita {
+		margin: 0 10px 0 0;	
+	}
+
+	.geral .direita article {
+		margin-top: 40px;
+	}
+
+	.geral nav {
+		margin-top: 100px;
+	}
+
+	main h2 {
+		font-size: 30px;
+		margin-bottom: 5px;
+	}
+
+	main p {
+		margin-bottom: 5px;
+		font-size: 12px;
+	}
+
+	main .accordion li {
+		padding: 2px 0;
+	}
+
+	.ingressos main cite { 
+		margin-top: 5px;
+	}
+
+	footer {
+		margin-top: 60px!important;
+	}
+}
+
+/* Laptops 1366x800----------- */
+@media only screen and (min-width:1366px) {
+	.geral {
+		height: 500px;
+		border: 1px solid red!important;
+	}
+
+	.geral .direita {
+		margin: 0 10px 0 0;	
+	}
+
+	.geral .direita article {
+		margin-top: 40px;
+	}
+
+	.geral nav {
+		margin-top: 100px;
+	}
+
+	main h2 {
+		font-size: 30px;
+		margin-bottom: 5px;
+	}
+
+	main p {
+		margin-bottom: 5px;
+		font-size: 12px;
+	}
+
+	main .accordion li {
+		padding: 2px 0;
+	}
+
+	.ingressos main cite { 
+		margin-top: 5px;
+	}
+
+	footer {
+		margin-top: 50px!important;
+	}
+}
+
+
+/* Large Screens 1680x1050----------- */
+@media (orientation:landscape) and (min-device-height:1000px), all and (min-width:1680px) {
+	.geral {
+		height: 633px;
+		border: 1px solid green!important;
+	}
+
+	.geral .direita {
+		margin: 60px  10px 0 0;
+	}
+
+	.geral .direita article {
+		margin-top: 120px;
+	}
+
+	.geral nav {
+		margin-top: 200px;
+	}
+
+	main h2 {
+		font-size: 50px;
+		margin-bottom: 15px;
+	}
+
+	main p {
+		margin-bottom: 10px;
+		font-size: 14px;
+	}
+
+	main .accordion li {
+		padding: 4px 0;
+	}
+
+	.ingressos main cite { 
+		margin-top: 10px;
+	}
+
+	footer {
+		margin-top: 80px!important;
+	}
+}

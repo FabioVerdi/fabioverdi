@@ -17,3 +17,15 @@ $( "#dialog" ).dialog({ autoOpen: false });
     $( "#opener" ).click(function() {
     $( "#dialog" ).dialog( "open" );
 });
+
+$(".various").fancybox({
+    maxWidth  : 1024,
+    maxHeight : 768,
+    fitToView : false,
+    width   : '100%',
+    height    : '100%',
+    autoSize  : false,
+    closeClick  : false,
+    openEffect  : 'none',
+    closeEffect : 'none'
+});

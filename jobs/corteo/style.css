@@ -1,0 +1,708 @@
+/*
++----------------------------------------------------------------+
+	Reset CSS for HTML5					
++----------------------------------------------------------------+
+*/
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, q, small, strong, sub, sup, tt, var, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { 
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body { line-height: 1; }
+ul { list-style: none; }
+img { border: none; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+
+a, span, p, h1, h2, h3, h4, h5, strong, cite, address { font-family: 'AllerRegular'; }
+
+h1, h2, h3, h4, h5 {
+	line-height: normal;
+}
+/*
++----------------------------------------------------------------+
+	ESTRUTURA					
++----------------------------------------------------------------+
+*/
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+@font-face {
+    font-family: 'AllerRegular';
+    src: url('Util/font/aller_rg-webfont.eot');
+    src: url('Util/font/aller_rg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Util/font/aller_rg-webfont.woff') format('woff'),
+         url('Util/font/aller_rg-webfont.ttf') format('truetype'),
+         url('Util/font/aller_rg-webfont.svg#allerregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.home {
+	background: #000 url('Util/img/bg/bgHome.jpg') no-repeat top center;
+}
+
+.oEspetaculo {
+	background: #000 url('Util/img/bg/bgOEspetaculo.jpg') no-repeat top center;
+}
+
+.personagens {
+	background: #000 url('Util/img/bg/bgPersonagens.jpg') no-repeat top center;
+}
+
+.ingressos {
+	background: #000 url('Util/img/bg/bgIngressos.jpg') no-repeat top center;
+}
+
+.noticiasLocalizacao {
+	background: #000 url('Util/img/bg/bgNoticiasLocalizacao.jpg') no-repeat top center;
+}
+
+.bgTopo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index:1;
+}
+
+.bgTopo img {
+	width: 100%;
+}
+
+.redes {
+	background-color: #007197;
+	position: absolute;
+	left: 0;
+	top:50%;
+	margin-top: -19px;
+	width: 38px;
+	height: 83px;
+	border-radius: 0 3px 3px 0;
+	-webkit-border-radius: 0 3px 3px 0;
+	-moz-border-radius: 0 3px 3px 0;
+}
+
+.redes ul {
+	margin: 6px 0 0 8px; 
+}
+
+.redes ul li {
+	margin-bottom: 5px;
+	float: left;
+	clear: both;
+}
+
+.redes ul li a img {
+	float: left;
+	clear: both;
+}
+
+.redes ul li a img:hover {
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+
+.geral {
+	width: 1002px;
+	height: 633px;
+	margin: 70px auto 0 auto;
+	z-index:10;
+	position:relative;
+}
+
+.geral.internas {
+	overflow: scroll;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.geral .esquerda {
+	overflow: hidden;
+	float: left;
+}
+
+.geral .esquerda header {
+	float:left;
+}
+
+.geral .esquerda header img {
+	margin: 0 0 10px 75px;
+}
+
+.geral .esquerda header h1 {
+	background: url('Util/img/lgo/corteo.png') no-repeat;
+	width: 250px;
+	height: 106px;
+	text-indent: -10000px;
+}
+
+/* HOME */
+.geral .direita {
+	float: right;
+	width: 288px;
+	margin: 150px  10px 0 0;
+}
+
+.geral .direita h2 {
+	color: #ffe3aa;
+	font-size: 30px;
+	margin-bottom: 7px;
+}
+
+.geral .direita section .amarela {
+	width: 217px;
+	background-color: #fbea94;
+	float: left;
+	height: 40px;
+	border-radius: 3px 0 0 3px;
+	-webkit-border-radius: 3px 0 0 3px;
+	-moz-border-radius: 3px 0 0 3px;
+	overflow: hidden;
+}
+
+.geral .direita section .amarela ul {
+ 	float: left;
+ 	overflow: hidden;
+ }
+
+.geral .direita section .amarela ul li p {
+	color: #004f6e;
+	font-size: 16px;
+	padding: 5px 0 0 5px;
+	float: left;
+}
+
+.geral .direita section .amarela ul li p span {
+	font-size: 14px;
+	color: #004f6e;
+	padding: 0;
+}
+
+.geral .direita section .compreJa {
+	background-color: #fbea94;
+	color: #004e6d;
+	font-size: 12px;
+	display: block;
+	text-decoration: none;
+	padding: 14px 4px;
+	width: 62px;
+	height: 12px;
+	border-radius: 0 3px 3px 0;
+	-webkit-border-radius: 0 3px 3px 0;
+	-moz-border-radius: 0 3px 3px 0;
+	float: left;
+	margin-left: 1px;
+}
+
+.geral .direita section .compreJa:hover {
+	color: #fff;
+	background-color: #009fd1;
+}
+
+.geral .direita section .amarela ul li span {
+	color: #009fd1;
+	font-size: 13px;
+	padding: 5px 0 0 5px;
+}
+
+.geral .direita section .azul {
+	width: 288px;
+	background-color: #009fd1;
+	height: 40px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	clear: both;
+	margin-top: 1px;
+	float: left;
+}
+
+.geral .direita section .azul ul li p {
+	color: #fff;
+	font-size: 16px;
+	padding: 5px 0 0 5px;
+}
+
+.geral .direita section .azul ul li span {
+	color: #fff;
+	font-size: 13px;
+	padding: 5px 0 0 5px;
+}
+
+.geral .direita section .cidades {
+	position: relative;
+	clear: both;
+}
+
+.geral .direita section .cidades span {
+	float: right;
+	color: #fff;
+	font-size: 13px;
+	cursor: pointer;
+	margin: 5px 0;
+	height: 20px;
+}
+
+.geral .direita section .cidades:hover span {
+	background: url('Util/img/ico/setaTooltip.png') no-repeat 42px 15px;
+}
+
+.geral .direita section .cidades .tooltip {
+	display: none;
+	width: 308px;
+	background-color: #009fd1;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border: 1px solid #fbea94;
+	position: absolute;
+	top: 25px;
+	right: 50px;
+	color: #fff;
+	z-index: 9999;
+	zoom: 1;
+}
+
+.geral .direita section .cidades:hover .tooltip {
+	display: block;
+}
+
+.geral .direita section .cidades:hover .tooltip li {
+	background: url('Util/img/bg/bgLiTooltip.png') no-repeat bottom center;
+	padding: 10px;
+}
+
+.geral .direita section .cidades:hover .tooltip li:last-child {
+	background: none;
+}
+
+.geral .direita section .cidades:hover .tooltip li h3 {
+	font-size: 16px;
+}
+
+.geral .direita section .cidades:hover .tooltip li p {
+	font-size: 13px;
+}
+
+.geral .direita article {
+	margin-top: 120px;
+}
+
+.geral .direita article header h2 {
+	color: #ffe3aa;
+	font-size: 30px;
+	float: left;
+}
+
+.geral .direita article header a {
+	color: #004e6d;
+	float: right;
+	font-size: 12px;
+	background-color: #fbea94;
+	padding: 5px 10px;
+	margin-top: 4px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	text-decoration: none;
+}
+
+.geral .direita article header a:hover {
+	color: #fff;
+	text-decoration: none;
+	background-color: #009fd1;
+}
+
+.geral .direita article ul li {
+	background: url('Util/img/bg/bgLiTooltip.png') no-repeat bottom center;
+	padding: 0 0 10px 0;
+	float: left;
+	clear: both;
+}
+
+.geral .direita article ul li p {
+	font-size: 14px;
+	color: #fff;
+	line-height: 15px;
+}
+
+.geral .direita article a {
+	float: right;
+	font-size: 13px;
+	color: #fff;
+	text-decoration: none;
+	margin-top: 10px;
+}
+
+.geral .direita article a:hover {
+	text-decoration: underline;
+}
+/* /HOME */
+
+/* INTERNAS */
+.geral .esquerda nav {
+	margin-top: 200px;
+	float: left;
+	clear:both;
+}
+
+.geral .esquerda  nav ul li {
+	background: url('Util/img/bg/bgNavLateral.png') no-repeat bottom center;
+	width: 230px;
+	height: 23px;
+	margin-bottom: 1px;
+}
+
+.geral .esquerda  nav ul li:hover,
+.geral .esquerda  nav ul li.active {
+	background: url('Util/img/bg/bgNavLateralHover.png') no-repeat bottom center;
+}
+
+.geral .esquerda  nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	padding: 4px 0;
+}
+
+.geral .esquerda  nav ul li:hover a,
+.geral .esquerda  nav ul li.active a {
+	color: #009FD1;
+}
+
+.geral .conteudo {
+	width: 680px;
+	float: right;
+	margin-right: 35px;
+}
+
+.geral .conteudo h2 {
+	color: #fff;
+	font-size: 50px;
+	margin-bottom: 15px;
+}
+
+.geral .conteudo p {
+	color: #fff;
+	line-height: 13px;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+
+.geral .conteudo .boxVideoFoto {
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+.geral .conteudo .accordion li {
+	background: url('Util/img/bg/bgLiAccordion.png') no-repeat bottom center;
+	float: left;
+	clear: both;
+	width: 100%;
+	padding: 4px 0;
+}
+
+.geral .conteudo .accordion li .cliq {
+	cursor: pointer;
+	background: url('Util/img/ico/spriteAccordion.png') no-repeat 0 -13px;
+}
+
+.noticiasLocalizacao .geral .conteudo .accordion li .cliq {
+	background-position: 0 -15px;
+}
+
+.geral .conteudo .accordion li .cliq.active {
+	background: url('Util/img/ico/spriteAccordion.png') no-repeat 0 4px;
+}
+
+.geral .conteudo .accordion li .cliq h5 {
+	font-size: 16px;
+	color: #fff;
+	padding-left: 22px;
+}
+
+.geral .conteudo .accordion li .acitem p {
+	font-size: 14px;
+	color: #faea93;
+	padding: 10px 0 0 0;
+} 
+
+.ingressos .geral .conteudo p {
+	font-size: 14px;
+}
+
+.ingressos .geral .conteudo h4 {
+	color:#f8ea92;
+	font-size: 14px;
+	margin: 15px 0 5px 0;
+}
+
+.ingressos .geral .conteudo ul {
+	margin-top: 15px;
+}
+
+.ingressos .geral .conteudo ul li span {
+	font-size: 14px;
+	color: #fff;
+}
+
+.ingressos .geral .conteudo table {
+	margin-bottom: 24px;
+}
+
+.ingressos .geral .conteudo table tr.bgBranco td {
+	background-color: #fff;
+	margin: 0 0 1px 1px;
+	padding: 8px 0 3px 0;
+	float: left;
+}
+
+.ingressos .geral .conteudo table tr td table.dias,
+.ingressos .geral .conteudo table tr td table.inteiraMeia,
+.ingressos .geral .conteudo table tr td table.servicoTapisRouge {
+	margin-bottom: 0;
+}
+
+.ingressos .geral .conteudo table tr td table.dias tr td,
+.ingressos .geral .conteudo table tr td table.inteiraMeia tr td,
+.ingressos .geral .conteudo table tr td table.servicoTapisRouge tr td {
+	background-color: #fbea94;
+	margin: 0 0 1px 1px;
+	float: left;
+	padding: 8px 0 3px 0;
+}
+
+.ingressos .geral .conteudo table tr td table.inteiraMeia tr td,
+.ingressos .geral .conteudo table tr td table.servicoTapisRouge tr td {
+	background-color: #009ccd;
+}
+
+.ingressos .geral .conteudo table tr td span {
+	font-size: 13px; 
+	color: #004d6c;
+	text-align: center;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.ingressos .geral .conteudo table tr.bgBranco td:first-child span {
+	text-align: left;
+	margin-left: 10px;
+}
+
+.ingressos .geral .conteudo table tr td table.inteiraMeia tr td span {
+	color: #fff;
+}
+
+.ingressos .geral .conteudo table tr td table.servicoTapisRouge tr td span {
+	color: #f8ea92;
+	font-size: 12px;
+}
+
+.geral .conteudo .mapaAssentos {
+	width: 332px;
+	height: 74px;
+	display: block;
+	float: left;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	text-decoration: none;
+}
+
+.geral .conteudo .mapaAssentos:hover {
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+	text-decoration: none;
+}
+
+.geral .conteudo .mapaAssentos.amarelo {
+	background: url('Util/img/bg/bgBtnAmarelo.png') no-repeat;
+}
+
+.geral .conteudo .mapaAssentos.azul {
+	background: url('Util/img/bg/bgBtnAzul.png') no-repeat;
+	margin-left: 4px;
+}
+
+.geral .conteudo .mapaAssentos h6,
+.geral .conteudo .mapaAssentos p {
+	padding-left: 54px;
+	font-size: 18px;
+	margin: 10px 0 8px 0;
+}
+
+.noticiasLocalizacao .geral .conteudo .mapaAssentos {
+	padding: 0;
+}
+
+.noticiasLocalizacao .geral .conteudo .mapaAssentos:hover {
+	text-decoration: none;
+}
+
+.noticiasLocalizacao .geral .conteudo .mapaAssentos img {
+	float: left;
+	margin: 5px 15px 0 30px;
+}
+
+.noticiasLocalizacao .geral .conteudo .mapaAssentos h6 {
+	margin-top: 20px;
+}
+
+.geral .conteudo .mapaAssentos p {
+	font-size: 14px;
+	margin: 0;
+}
+
+.geral .conteudo .mapaAssentos.amarelo h6 {
+	color: #004d6c;
+}
+
+.geral .conteudo .mapaAssentos.amarelo p {
+	color: #3eb2c0;
+}
+
+.geral .conteudo .mapaAssentos.azul h6 {
+	color: #fff;
+}
+
+.geral .conteudo .mapaAssentos.azul p {
+	color: #f9ea92;
+}
+
+.ingressos .geral .conteudo cite {
+	font-size: 14px;
+	font-style: normal;
+	color: #f8ea92;
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+}
+
+.noticiasLocalizacao .geral .conteudo p {
+	font-size: 16px;
+}
+
+.noticiasLocalizacao .geral .conteudo address {
+	color: #f8ea92;
+	font-style: normal;
+	font-size: 14px;
+	margin-bottom: 12px;
+}
+
+.noticiasLocalizacao .geral .conteudo a {
+	color: #fff;
+	padding: 0 0 0 22px;
+	text-decoration: none;
+}
+
+.noticiasLocalizacao .geral .conteudo a:hover {
+	text-decoration: underline;
+}
+
+/* /INTERNAS */
+
+footer {
+	width: 100%;
+	padding:0;
+	overflow: hidden;
+	float: left;
+	clear: both;
+	margin-top: -50px;
+}
+
+footer .bgFooter {
+	clear: both;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+footer nav {
+	width: 1002px;
+	margin: 0 auto;
+	overflow: hidden;
+	background: url('Util/img/bg/bgNav.png') no-repeat top center;
+	height: 53px;
+}
+
+footer nav ul li {
+	display: inline;
+}
+
+footer nav ul li a {
+	float: left;
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 15px 32px;
+}
+
+footer nav ul li a:hover {
+	text-decoration: underline;
+}
+
+footer .patrocinadores {
+	background: url('Util/img/bg/bgLinhaFina.png') no-repeat bottom center;
+	width: 1002px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 8px 0;
+}
+
+footer .patrocinadores ul {
+	float: left;
+}
+
+footer .patrocinadores ul li {
+	display: inline;
+	margin-left: 10px;
+}
+
+footer .patrocinadores ul li span {
+	font-size: 12px;
+	color: #fff;
+	float: left;
+	padding: 12px 0 0 0;
+}
+
+footer .patrocinadores .apoio {
+	margin-left: 18px;
+}
+
+footer .patrocinadores .apoioCultural {
+	margin-left: 210px;
+}
+
+footer .patrocinadores .imprensa {
+	float: right;
+	margin-right: 18px;
+}
+
+footer small {
+	width: 1002px;
+	margin: 7px auto;
+	display: block;
+	color: #fff;
+	font-size: 9px;
+	font-family: Arial, Helvetica, sans-serif;
+}
