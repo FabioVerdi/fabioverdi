@@ -26,5 +26,5 @@ $(".various").fancybox({
 });
 
 $('#contactable').contactable({
-    subject: 'A Feeback Message'
+    url: 'mail.php'
 });
