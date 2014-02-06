@@ -24,3 +24,7 @@ $(".various").fancybox({
     openEffect  : 'elastic',
     closeEffect : 'elastic'
 });
+
+$('#contactable').contactable({
+    subject: 'A Feeback Message'
+});
