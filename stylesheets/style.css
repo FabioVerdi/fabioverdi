@@ -83,12 +83,16 @@ aside nav ul li a strong {
   display: none;
 }
 
-.holder-content ul li h2 {
-  font-size: 20px;
+.holder-content h3 {
+  margin-bottom: 20px;
 }
 
-.holder-content ul {
+#holder-content-2 ul {
   margin: 20px 0;
+}
+
+.holder-content ul li h2 {
+  font-size: 20px;
 }
 
 .holder-content ul li:first-child {
@@ -97,6 +101,10 @@ aside nav ul li a strong {
 
 .holder-content.about {
   display: block;
+}
+
+#holder-content-4 a {
+  display: inline-block;
 }
 
 small {

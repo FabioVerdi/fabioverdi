@@ -24,21 +24,3 @@ $(".various").fancybox({
     openEffect  : 'elastic',
     closeEffect : 'elastic'
 });
-
-jQuery(function(){
-        jQuery('#contactable').contactable(
-        {
-            subject: 'feedback URL:'+location.href,
-            url: 'mail.php',
-            name: 'Name',
-            email: 'Email',
-            dropdownTitle: 'Issue',
-            dropdownOptions: ['General', 'Website bug', 'Feature request'],
-            message : 'Message',
-            submit : 'SEND',
-            recievedMsg : 'Thank you for your message',
-            notRecievedMsg : 'Sorry but your message could not be sent, try again later',
-            disclaimer: 'Please feel free to get in touch, we value your feedback',
-            hideOnSubmit: true
-        });
-    });
