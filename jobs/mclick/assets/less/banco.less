@@ -1,0 +1,79 @@
+.bank {
+
+	p {
+		color: #686868;
+		font-size: 14px;
+		font-family: 'MavenProRegular';
+		margin: 20px 0;
+	}
+
+	ul {
+
+		li {
+			clear: both;
+			width: 100%;
+
+			span {
+
+				var {
+					margin-left: 10px;
+				}
+			}
+
+			.date {
+				width: 100px;
+				margin-right: 0!important;
+			}
+
+			input[type="text"] {
+
+				&.full {
+					width: 500px;
+				}
+
+				&.single {
+					width: 10px;
+					text-align: center;
+				}
+			}
+
+			.box-select {
+				width: 150px;
+
+				&.full {
+					width: 512px;
+				}
+
+				&.release {
+					width: 245px;
+
+					select {
+						width: 270px;
+					}
+				}
+
+				select {
+					width: 175px;
+
+					&.bank {
+						width: 535px;
+					}
+				}
+
+				.filter, .submit {
+					display: inline;
+				}
+			}
+		}
+	}
+
+	&.draft {
+
+		span {
+			width: auto!important;
+		}
+
+	}
+}
+
+

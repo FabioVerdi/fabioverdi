@@ -1,0 +1,571 @@
+.holder-form {
+	h2 {
+		font-size: 16px;
+		font-weight: bold;
+		color: #2560a9;
+	}
+
+	ul {
+
+		margin: 20px 0;
+		clear: both;
+		overflow: hidden;
+
+		li {
+			float: left;
+			display: inline;
+			list-style: none;
+			margin-bottom: 10px;
+			color: #686868;
+			font-size: 14px;
+			font-family: 'MavenProRegular';
+			width: auto;
+
+			label, span:first-child {
+				color: #686868;
+				font-size: 14px;
+				display: inline-block;
+				font-family: 'MavenProRegular';
+				margin-right: 10px;
+				width: 125px;
+				float: left;
+
+				&[for="agree"] {
+					width: 895px;
+					margin-left: 5px;
+				}
+			}
+
+			strong {
+				font-size: 14px;
+				font-family: 'MavenProBold';
+				color: #2560a9;
+			}
+
+			input[type="text"], input[type="password"] {
+				font-family: 'MavenProRegular';
+				height: 15px;
+				padding: 5px;
+				color: #686868;
+				font-size: 14px;
+				background: #fff;
+				border: 1px solid #a3a3a3;
+				margin-right: 13px;
+
+				&.full {
+					width: 802px;
+					margin-right: 0;
+				}
+
+				&.over-half {
+					width: 575px;
+				}
+
+				&.half {
+					width: 237px;
+				}
+
+				&.third {
+					width: 128px;
+				}
+			}
+
+			input[type="radio"] {
+				font-size: 14px;
+				margin: 0 5px;
+			}
+
+			input[type="checkbox"] {
+				float: left;
+			}
+
+			.box-select {
+				width: 247px;
+
+				select {
+					width: 279px;
+				}
+			}
+
+			&.clr {
+				clear: both;
+			}
+		}
+	}
+
+	.submit {
+		margin: auto;
+	}
+
+	&.signup {
+
+		ul {
+
+			li {
+
+				label, span {
+					margin-top: 6px;
+				}
+
+				strong {
+					margin-top: 5px;
+					display: block;
+					color: #96c11f;
+				}
+
+				.radios {
+					width: 540px;
+
+					label, span:first-child {
+						float: none;
+
+						&[for="numero"] {
+							width: 70px;
+							float: left;
+						}
+					}
+
+					ul {
+						float: left;
+						clear: none;
+						margin: 20px 0 0 0;
+
+						li {
+							clear: both;
+						}
+					}
+
+					ul:first-child {
+						li {
+							input, label {
+								margin-top: 0;
+								float: left;
+							}
+						}
+					}
+
+					ul:last-child {
+						margin: 40px 0 0 0;
+
+						li {
+							margin-bottom: 0;
+
+							label, span {
+								margin-top: 6px;
+							}
+						}
+
+					}
+				}
+			}
+
+			li:nth-child(3) {
+				label {
+					margin-left: 110px;
+				}
+			}
+
+			li:nth-child(3), li:nth-child(10), li:nth-child(12), li:nth-child(14) {
+				label {
+					width: 65px;
+				}
+			}
+
+			li:nth-child(4), li:last-child {
+
+				label, span {
+					margin-top: 0;
+
+					a {
+						color: #686868;
+					}
+				}
+			}
+
+			li:nth-last-child(2) {
+
+				label, span {
+					width: 162px;
+				}
+			}
+		}
+	}
+
+	&.pre-signup {
+
+		h2 {
+			color: #96c11f;
+		}
+
+		.full {
+			width: 500px!important;
+		}
+
+		.submit {
+			margin: 20px 0;
+		}
+	}
+
+	&.bank {
+
+		p {
+			font-size: 14px;
+			margin-top: 25px;
+		}
+	}
+
+	&.commissions {
+
+		.fields {
+			margin-bottom: 0;
+		}
+
+		ul {
+			li {
+				clear: both;
+
+				span, label {
+					width: 65px;
+					margin-top: 7px;
+					float: left;
+				}
+
+				input {
+					float: left;
+				}
+
+				.box-select {
+					width: 385px;
+
+					select {
+					 width: 417px;
+					}
+				}
+			}
+		}
+
+		&.publicity {
+
+			ul {
+
+				li {
+
+					span:first-child, label:first-child {
+						width: 115px;
+						margin-right: 0;
+					}
+
+					span {
+						width: auto;
+						margin-right: 10px;
+					}
+
+					.half {
+						width: 387px;
+					}
+
+					.third {
+						width: 90px;
+					}
+
+				}
+			}
+		}
+	}
+
+	&.profile, &.location {
+
+		ul {
+
+			li {
+				width: 100%;
+
+				span:first-child, label:first-child {
+					width: 132px;
+				}
+
+				span, label {
+					width: 133px;
+					display: block;
+					float: left;
+					margin-top: 7px;
+				}
+
+				input {
+					float: left;
+					margin-right: 10px;
+
+					&.full {
+						width: 779px;
+					}
+
+					&.over-half {
+						width: 312px;
+					}
+
+					&.btn-blue {
+						margin: 20px auto 0 auto;
+						float: none;
+					}
+				}
+			}
+
+			&.your-data {
+
+				li {
+
+					span:first-child, label:first-child {
+						width: 132px;
+					}
+
+					span, label {
+						width: 80px;
+					}
+				}
+			}
+		}
+	}
+
+	&.location {
+
+		ul {
+
+			li {
+
+				.btn-green-two {
+					float: none;
+					margin: 20px auto;
+				}
+
+			}
+		}
+	}
+
+	&.history-evouche {
+
+		.fields {
+
+			li {
+
+				span, label {
+					width: 360px;
+					margin-top: 5px;
+				}
+			}
+		}
+	}
+
+	&.passwords {
+
+		ul {
+			float: left;
+			clear: none;
+
+			li {
+				margin-bottom: 0;
+				padding-bottom: 10px;
+				clear: both;
+				display: inline-block;
+
+				span {
+					width: 205px;
+					margin: 5px 5px 0 0;
+				}
+
+				input {
+					margin-right: 0;
+				}
+
+				&:last-child {
+					margin-top: 10px;
+				}
+
+			}
+
+			&.password-login {
+				width: 473px;
+
+				li {
+					width: 472px;
+					border-right: 1px solid #d7d7d7;
+
+					input[type="button"] {
+						float: none;
+						margin: 0 auto;
+					}
+				}
+			}
+
+			&.password-financial {
+				width: 470px;
+
+				li {
+					width: 463px;
+					border-left: 1px solid #fff;
+					padding-left: 10px;
+
+					input[type="button"] {
+						float: left;
+
+						&:first-child {
+							margin: 0 10px;
+						}
+					}
+				}
+			}
+
+			li:last-child {
+				border: none;
+			}
+		}
+	}
+}
+
+
+
+/* organizar */
+.holder-video {
+	width: 420px;
+	float: left;
+}
+
+.box-select {
+	height: 27px;
+	overflow: hidden;
+	background: #fff url('../img/arrow-select.png') no-repeat right center;
+	float: left;
+	border: 1px solid #a1a1a1;
+	margin-right: 13px;
+
+	select {
+		font-family: 'MavenProRegular';
+		height: 27px;
+		padding: 5px;
+		color: #686868;
+		background: transparent;
+		font-size: 14px;
+		line-height: 1;
+		border: 0;
+		border-radius: 0;
+		-webkit-appearance: none;
+		outline: none;
+	}
+}
+
+.btn-blue {
+	color: #FFF;
+	display: block;
+	text-align: center;
+	font-family: 'MavenProRegular';
+	font-size: 14px;
+	padding: 0 20px;
+	height: 32px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	border-radius: 16px;
+	background-color: #2560a9;
+	border: solid 3px #d3d3d3;
+}
+
+.btn-green {
+	background-color: #a8cb45;
+	color: #FFF;
+	display: block;
+	text-align: center;
+	font-family: 'MavenProRegular';
+	font-size: 14px;
+	padding: 0 30px;
+	height: 26px;
+	border: 0;
+	-webkit-border-radius: 10px 0 10px 0;
+	-moz-border-radius: 10px 0 10px 0;
+	border-radius: 10px 0 10px 0;
+}
+
+.btn-green-two {
+	color: #FFF;
+	display: block;
+	text-align: center;
+	font-family: 'MavenProRegular';
+	font-size: 14px;
+	padding: 0 20px;
+	height: 32px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	border-radius: 16px;
+	background-color: #96c11f;
+	border: solid 3px #d3d3d3;
+}
+
+.btn-red {
+	color: #FFF;
+	display: block;
+	text-align: center;
+	font-family: 'MavenProRegular';
+	font-size: 14px;
+	padding: 0 15px;
+	height: 32px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	border-radius: 16px;
+	background-color: #ae2135;
+	border: solid 3px #d3d3d3;
+}
+
+.box-input-file {
+	width: 43px;
+	height: 43px;
+	-webkit-border-radius: 22px;
+	-moz-border-radius: 22px;
+	border-radius: 22px;
+	background-color: #92bf20;
+	border: none;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+
+	input {
+		width: 43px;
+		height: 43px;
+		position: absolute;
+		right: 0;
+		font-size: 38px;
+		opacity: 0; filter: alpha(opacity=0);
+		z-index: 9999;
+		cursor: pointer;
+		display: block;
+	}
+
+	samp {
+		position: absolute;
+		font-family: 'MavenProBold';
+		font-size: 63px;
+		left: 4px;
+		top: 0;
+		color: #fff;
+		line-height: 43px;
+		line-height: 53px\9;
+		width: 43px;
+		height: 43px;
+		cursor: pointer;
+		z-index: 0;
+	}
+}
+
+.help {
+	display: inline-block;
+	width: 20px;
+	height: 21px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background-color: #2560a9;
+	text-align: center;
+	font-size: 14px;
+	line-height: 22px;
+	text-decoration: none;
+	font-family: 'MavenProRegular';
+	color: #FFF;
+}
