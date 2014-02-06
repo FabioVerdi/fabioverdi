@@ -14,11 +14,7 @@ function showonlyone(thechosenone) {
 }
 
 $(".various").fancybox({
-    maxWidth  : 1024,
-    maxHeight : 768,
     fitToView : false,
-    width   : '100%',
-    height    : '100%',
     autoSize  : false,
     closeClick  : false,
     openEffect  : 'elastic',
