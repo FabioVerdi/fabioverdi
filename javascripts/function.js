@@ -13,11 +13,6 @@ function showonlyone(thechosenone) {
     });
 }
 
-$( "#dialog" ).dialog({ autoOpen: false });
-    $( "#opener" ).click(function() {
-    $( "#dialog" ).dialog( "open" );
-});
-
 $(".various").fancybox({
     maxWidth  : 1024,
     maxHeight : 768,
@@ -26,6 +21,6 @@ $(".various").fancybox({
     height    : '100%',
     autoSize  : false,
     closeClick  : false,
-    openEffect  : 'none',
-    closeEffect : 'none'
+    openEffect  : 'elastic',
+    closeEffect : 'elastic'
 });
