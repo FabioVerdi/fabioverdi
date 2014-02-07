@@ -55,9 +55,12 @@
 		defaults: {
 			padding : 15,
 			margin  : 20,
-			minWidth  : 810,
-			minHeight : 600,
-			maxWidth  : 1024,
+
+			width     : 800,
+			height    : 600,
+			minWidth  : 100,
+			minHeight : 100,
+			maxWidth  : 9999,
 			maxHeight : 9999,
 			pixelRatio: 1, // Set to 2 for retina display support
 
