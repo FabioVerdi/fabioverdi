@@ -4,8 +4,14 @@ body {
   font-weight:300;
 }
 
-h1, h3 {
+h1 {
   font-size:28px;
+}
+
+h3 {
+  font-size:20px;
+  color: #990003;
+  margin-top: 8px;
 }
 
 .wrapper {
@@ -92,7 +98,8 @@ aside nav ul li a strong {
 }
 
 .holder-content ul li h2 {
-  font-size: 20px;
+  font-size: 16px;
+  color: #990003;
 }
 
 .holder-content ul li:first-child {
