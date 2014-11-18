@@ -31,9 +31,9 @@ aside nav {
 
 aside nav ul {
   overflow: hidden;
-  
+
   padding:0;
-  
+
   background: #eee;
   background: -moz-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
@@ -41,14 +41,14 @@ aside nav ul {
   background: -o-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
   background: -ms-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
   background: linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
-  
+
   border-radius:5px;
   border:1px solid #d2d2d2;
   box-shadow:inset #fff 0 1px 0, inset rgba(0,0,0,0.03) 0 -1px 0;
 }
 
 aside nav ul li {
-  width: 66px;
+  padding: 0 8%;
   float:left;
   border-right:1px solid #d2d2d2;
 }
@@ -126,33 +126,33 @@ hr {
 }
 
 @media print, screen and (max-width: 960px) {
-  
+
   div.wrapper {
     width:auto;
     margin:0;
   }
-  
+
   aside, section {
     float:none;
     position:static;
     width:auto;
   }
-  
+
   aside {
     padding-right:320px;
   }
-  
+
   section {
     border:1px solid #e5e5e5;
     border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
   }
-  
+
   aside ul li a small {
     display:inline;
   }
-  
+
   aside nav ul {
     position:absolute;
     right:50px;
@@ -164,15 +164,15 @@ hr {
   body {
     word-wrap:break-word;
   }
-  
+
   aside {
     padding:0;
   }
-  
+
   aside nav ul, aside p.view {
     position:static;
   }
-  
+
   pre, code {
     word-wrap:normal;
   }
@@ -182,7 +182,7 @@ hr {
   body {
     padding:15px;
   }
-  
+
   aside nav ul {
     display:none;
   }
