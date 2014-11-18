@@ -140,6 +140,10 @@
 	padding-bottom: 0;
 }
 
+.holder_geral .holder_conteudo .holder_informacoes ul li:first-child .descricao.empresa a {
+	padding-top: 0;
+}
+
 .holder_geral .holder_conteudo .holder_informacoes ul li .descricao.empresa a,
 .holder_geral .holder_conteudo .holder_informacoes ul li .descricao.empresa button {
 	float: right;
