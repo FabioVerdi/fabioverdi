@@ -83,7 +83,7 @@ aside nav ul li a strong {
 }
 
 .holder-content {
-  width:670px;
+  width: 100%;
   float:right;
   padding-bottom:50px;
   display: none;
